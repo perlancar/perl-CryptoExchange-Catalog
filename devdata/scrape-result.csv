@@ -1,178 +1,183 @@
 name	safename
+Upbit	upbit
 Binance	binance
 Bithumb	bithumb
 Bitfinex	bitfinex
-Bittrex	bittrex
 OKEx	okex
 BitMEX	bitmex
+Bittrex	bittrex
 Huobi	huobi
-Poloniex	poloniex
 GDAX	gdax
-HitBTC	hitbtc
-Coinone	coinone
-Bitstamp	bitstamp
-Ethfinex	ethfinex
+Poloniex	poloniex
 Kraken	kraken
+HitBTC	hitbtc
+Bitstamp	bitstamp
+Coinone	coinone
+Quoine	quoine
+BTCBOX	btcbox
 Korbit	korbit
 Bit-Z	bit-z
 Gemini	gemini
 Kucoin	kucoin
 ZB.COM	zb-com
-Quoine	quoine
+Coinnest	coinnest
+bitFlyer	bitflyer
+Gate.io	gate-io
 Liqui	liqui
 BTCC	btcc
-bitFlyer	bitflyer
-Cryptopia	cryptopia
-BTCBOX	btcbox
-Gate.io	gate-io
-Coinnest	coinnest
-Exmo	exmo
-CoinEgg	coinegg
-Coinrail	coinrail
-Lbank	lbank
 Zaif	zaif
-CEX.IO	cex-io
-ACX	acx
-Fisco	fisco
-EXX	exx
-CoinsBank	coinsbank
+CoinEgg	coinegg
+Lbank	lbank
 Bits Blockchain	bits-blockchain
-YoBit	yobit
-Bibox	bibox
-Livecoin	livecoin
-Koinex	koinex
+Fisco	fisco
 BTC Markets	btc-markets
-AEX	aex
-Bitcoin Indonesia	bitcoin-indonesia
-CoinExchange	coinexchange
-itBit	itbit
-WEX	wex
-Tidex	tidex
-BitBay	bitbay
-BX Thailand	bx-thailand
-BitShares Asset Exchange	bitshares-asset-exchange
-Bitbank	bitbank
-RightBTC	rightbtc
-CoolCoin	coolcoin
-QuadrigaCX	quadrigacx
-Gatecoin	gatecoin
-Luno	luno
-LakeBTC	lakebtc
-Bitso	bitso
-GetBTC	getbtc
-Paribu	paribu
-BTCTurk	btcturk
-BitGrail	bitgrail
-BigONE	bigone
-EtherDelta	etherdelta
-Allcoin	allcoin
-BCC Exchange	bcc-exchange
-Gatehub	gatehub
-Negocie Coins	negocie-coins
-Exrates	exrates
-xBTCe	xbtce
-BL3P	bl3p
-Bitonic	bitonic
-OkCoin Intl.	okcoin-intl
-Mr. Exchange	mr-exchange
-DSX	dsx
-LiteBit.eu	litebit
-CoinFalcon	coinfalcon
-Coinsquare	coinsquare
-Independent Reserve	independent-reserve
+CEX.IO	cex-io
+EXX	exx
+Bibox	bibox
 GOPAX	gopax
-Foxbit	foxbit
-Koineks	koineks
+Cryptopia	cryptopia
+CoinsBank	coinsbank
+Bitbank	bitbank
+YoBit	yobit
+Livecoin	livecoin
+Coinrail	coinrail
+WEX	wex
+Bitcoin Indonesia	bitcoin-indonesia
+LakeBTC	lakebtc
+ACX	acx
+Luno	luno
+Koinex	koinex
+itBit	itbit
+BitBay	bitbay
+xBTCe	xbtce
+BX Thailand	bx-thailand
+CoinExchange	coinexchange
+Tidex	tidex
+RightBTC	rightbtc
+BtcTrade.im	btctrade-im
+GetBTC	getbtc
+BigONE	bigone
+QuadrigaCX	quadrigacx
+Paribu	paribu
+Bitso	bitso
+Independent Reserve	independent-reserve
+BTCTurk	btcturk
+AEX	aex
+Mr. Exchange	mr-exchange
+Exrates	exrates
+Bitonic	bitonic
+BitShares Asset Exchange	bitshares-asset-exchange
+Gatecoin	gatecoin
+Gatehub	gatehub
+CoolCoin	coolcoin
+Coinsquare	coinsquare
+RippleFox	ripplefox
 Coinfloor	coinfloor
+LiteBit.eu	litebit
+Negocie Coins	negocie-coins
+Foxbit	foxbit
+EtherDelta	etherdelta
+Bitinka	bitinka
+Qryptos	qryptos
+BL3P	bl3p
+BitGrail	bitgrail
+Ripple China	ripple-china
+DSX	dsx
+Coinbene	coinbene
 Mercado Bitcoin	mercado-bitcoin
 TOPBTC	topbtc
-Mercatox	mercatox
-Qryptos	qryptos
-RippleFox	ripplefox
-Bleutrade	bleutrade
-Bitstamp (Ripple Gateway)	bitstamp-ripple-gateway
-Ripple China	ripple-china
-OEX	oex
 The Rock Trading	therocktrading
+Allcoin	allcoin
+CoinFalcon	coinfalcon
 BTC-Alpha	btc-alpha
+BitMarket	bitmarket
+OkCoin Intl.	okcoin-intl
+Altcoin Trader	altcoin-trader
+Bleutrade	bleutrade
+Koineks	koineks
+Tidebit	tidebit
+Lykke Exchange	lykke-exchange
 COSS	coss
 Coinroom	coinroom
-BitcoinToYou	bitcointoyou
-Altcoin Trader	altcoin-trader
 ChaoEX	chaoex
-Coinbene	coinbene
-Bitsane	bitsane
-BitMarket	bitmarket
-Lykke Exchange	lykke-exchange
-Tidebit	tidebit
-Waves Decentralized Exchange	waves-dex
-BtcTrade.im	btctrade-im
 OpenLedger DEX	openledger
-Stocks.Exchange	stocks-exchange
-Coinut	coinut
-Koinim	koinim
+Waves Decentralized Exchange	waves-dex
 Bancor Network	bancor-network
-QBTC	qbtc
-BitcoinTrade	bitcointrade
-LocalTrade	localtrade
-Abucoins	abucoins
+Cobinhood	cobinhood
+Exmo	exmo
+Mercatox	mercatox
+Bitstamp (Ripple Gateway)	bitstamp-ripple-gateway
+Coinut	coinut
 CryptoBridge	cryptobridge
+Koinim	koinim
+Stocks.Exchange	stocks-exchange
+LocalTrade	localtrade
+Bitsane	bitsane
+Abucoins	abucoins
+TDAX	tdax
+CoinMate	coinmate
+BitcoinTrade	bitcointrade
+BitcoinToYou	bitcointoyou
+Nocks	nocks
 SurBTC	surbtc
+QBTC	qbtc
+CoinEx	coinex
 Bit2C	bit2c
+Bittylicious	bittylicious
+Kuna	kuna
+Fargobase	fargobase
 C-CEX	c-cex
 Trade Satoshi	trade-satoshi
-Fargobase	fargobase
-TDAX	tdax
-Bittylicious	bittylicious
-Tripe Dice Exchange	triple-dice-exchange
-CoinMate	coinmate
-Kuna	kuna
 Bitlish	bitlish
+BitFlip	bitflip
+IDEX	idex
+Braziliex	braziliex
 Stellar Decentralized Exchange	stellar-decentralized-exchange
 Coinsecure	coinsecure
+OEX	oex
 Bitex.la	bitex-la
-Braziliex	braziliex
-Nocks	nocks
-BitFlip	bitflip
-Coinrate	coinrate
-IDEX	idex
 OasisDEX	oasisdex
-ezBtc	ezbtc
-SouthXchange	southxchange
+CryptoMarket	cryptomarket
 C2CX	c2cx
-Rippex	rippex
-BCEX	bcex
+Tux Exchange	tux-exchange
+ezBtc	ezbtc
+Cryptox	cryptox
+Coinhouse	coinhouse
+Radar Relay	radar-relay
+BTC Trade UA	btc-trade-ua
+ETHEXIndia	ethexindia
 InfinityCoin Exchange	infinitycoin-exchange
+Coinrate	coinrate
+SouthXchange	southxchange
+Rippex	rippex
 Cryptomate	cryptomate
 Token Store	token-store
-Cryptox	cryptox
-ETHEXIndia	ethexindia
-Counterparty DEX	counterparty-dex
-Tux Exchange	tux-exchange
-Bisq	bisq
-Nxt Asset Exchange	nxt-asset-exchange
-BitKonan	bitkonan
-BTC Trade UA	btc-trade-ua
 Bitmaszyna	bitmaszyna
-CryptoMarket	cryptomarket
+Counterparty DEX	counterparty-dex
+BCEX	bcex
 alcurEX	alcurex
-TCC Exchange	tcc-exchange
-ISX	isx
-OKCoin.cn	okcoin-cn
-Dgtmarket	dgtmarket
+BitKonan	bitkonan
+Tripe Dice Exchange	triple-dice-exchange
 Coingi	coingi
-FreiExchange	freiexchange
-Heat Wallet	heat-wallet
+Bisq	bisq
+ISX	isx
+Dgtmarket	dgtmarket
 GuldenTrader	guldentrader
-Burst Asset Exchange	burst-asset-exchange
-DC-Ex	dc-ex
+Heat Wallet	heat-wallet
+OKCoin.cn	okcoin-cn
+FreiExchange	freiexchange
+Ore.Bz	ore-bz
+TCC Exchange	tcc-exchange
+BarterDEX	barterdex
+Nxt Asset Exchange	nxt-asset-exchange
 ExcambrioRex	excambriorex
+LEOxChange	leoxchange
+DC-Ex	dc-ex
 NIX-E	nix-e
 CoinCorner	coincorner
+Burst Asset Exchange	burst-asset-exchange
 Omni DEX	omni-dex
-LEOxChange	leoxchange
 CryptoDerivatives	cryptoderivatives
-CoinsMarkets	coinsmarkets
 VirtacoinWorld	virtacoinworld
 AidosMarket	aidos-market
 BITHOLIC	bitholic

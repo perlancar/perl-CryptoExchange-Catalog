@@ -1,0 +1,83 @@
+#!/usr/bin/env perl
+
+use 5.010001;
+use strict;
+use warnings;
+use FindBin '$Bin';
+use Log::ger;
+use Log::ger::App;
+
+{
+    my $archived_pm_dir = [sort(glob "$Bin/../archive/*")]->[-1] . "/lib";
+    local @INC = ($archived_pm_dir, @INC);
+    require CryptoExchange::Catalog;
+    log_warn("Loading CryptoExchange::Catalog version %s", $CryptoExchange::Catalog::VERSION);
+    log_debug("%%INC = %s", \%INC);
+    die "Didn't load the desired last archived version" unless $INC{"CryptoExchange/Catalog.pm"} eq "$archived_pm_dir/CryptoExchange/Catalog.pm";
+}
+
+my $cat;
+
+$cat = CryptoExchange::Catalog->new;
+my @old_data = $cat->all_data;
+
+delete $INC{"CryptoExchange/Catalog.pm"};
+{
+    local @INC = ("$Bin/../lib", @INC);
+    require CryptoExchange::Catalog;
+    undef $CryptoExchange::Catalog::VERSION;
+    log_warn("Loading CryptoExchange::Catalog version %s", ($CryptoExchange::Catalog::VERSION // 'dev'));
+    log_debug("%%INC = %s", \%INC);
+    die "Didn't load the desired dev version" unless $INC{"CryptoExchange/Catalog.pm"} eq "$Bin/../lib/CryptoExchange/Catalog.pm";
+}
+
+$cat = CryptoExchange::Catalog->new;
+my @new_data = $cat->all_data;
+
+#use Data::Dump;
+#dd \@old_data;
+#dd \@new_data;
+
+my $indent = "          ";
+
+my %old_safenames;
+for my $e (@old_data) {
+    $old_safenames{ $e->{safename} } = $e;
+}
+
+my %new_safenames;
+for my $e (@new_data) {
+    $new_safenames{ $e->{safename} } = $e;
+}
+
+say "${indent}- New exchanges:";
+for my $n (sort keys %new_safenames) {
+    next if $old_safenames{$n};
+    my $e = $new_safenames{$n};
+    say "${indent}  + $e->{name}";
+}
+say "";
+
+say "${indent}- Removed exchanges:";
+for my $n (sort keys %old_safenames) {
+    next if $new_safenames{$n};
+    my $e = $old_safenames{$n};
+    say "${indent}  + $e->{name}";
+}
+say "";
+
+say "${indent}- Changed exchanges:";
+for my $n (sort keys %new_safenames) {
+    my $e2 = $new_safenames{$n};
+    my $e1 = $old_safenames{$n};
+    next unless $e1;
+    my @chgs;
+    if ($e1->{name} ne $e2->{name}) {
+        push @chgs, "changed name from $e1->{name}";
+    }
+    next unless @chgs;
+    say "${indent}  + $e2->{name} ".join(", ", @chgs);
+}
+say "";
+
+say "${indent}- Total exchanges now ".(scalar keys %new_safenames)." (from ".(scalar %old_safenames).")";
