@@ -1,4 +1,11 @@
+20180130.1.0  2018-01-30 (PERLANCAR)
+
+          - [ux] Make by_name() case-insensitive.
+
+
 20180130   2018-01-30 (PERLANCAR)
+
+          - Update to CMC 2018-01-30.
 
           - New exchanges:
             + Iquant
@@ -12,6 +19,8 @@
 
 
 20180116   2018-01-16 (PERLANCAR)
+
+          - Update to CMC 2018-01-16.
 
           - New exchanges:
             + BarterDEX
