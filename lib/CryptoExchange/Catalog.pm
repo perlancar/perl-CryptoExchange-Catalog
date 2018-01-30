@@ -7,19 +7,19 @@ use 5.010001;
 use strict;
 use warnings;
 
-my %by_name;
+my %by_name_lc;
 my %by_safename;
 my @all_data;
 
 sub new {
     my $class = shift;
 
-    unless (keys %by_name) {
+    unless (keys %by_name_lc) {
         while (defined(my $line = <DATA>)) {
             chomp $line;
             my @ff = split /\t/, $line;
             my ($name, $safename) = @ff;
-            $by_name{$name}         = \@ff;
+            $by_name_lc{lc $name}   = \@ff;
             $by_safename{$safename} = \@ff;
             push @all_data, \@ff;
         }
@@ -31,10 +31,10 @@ sub new {
 sub by_name {
     my ($self, $name) = @_;
     die "Can't find cryptoexchange with name '$name'"
-        unless $by_name{$name};
+        unless my $rec = $by_name_lc{lc $name};
     return {
-        name=>$name,
-        safename=>$by_name{$name}[1],
+        name=>$rec->[0],
+        safename=>$rec->[1],
     };
 }
 
@@ -78,7 +78,7 @@ sub all_data {
 
  my $cat = CryptoExchange::Catalog->new;
 
- my $record = $cat->by_name("BX Thailand");     # note: case-sensitive. => {name=>"BX Thailand", safename=>"bx-thailand"}
+ my $record = $cat->by_name("BX Thailand");     # note: case-insensitive. => {name=>"BX Thailand", safename=>"bx-thailand"}
  my $record = $cat->by_safename("bx-thailand");
  my $record = $cat->by_slug("bx-thailand");     # alias for by_safename(), mixed case also works
 
