@@ -148,7 +148,6 @@ BitGrail	bitgrail
 BitKonan	bitkonan
 BitMEX	bitmex
 BitMarket	bitmarket
-BitShares Asset Exchange	bitshares-asset-exchange
 Bitbank	bitbank
 Bitcoin Indonesia	bitcoin-indonesia
 BitcoinToYou	bitcointoyou
@@ -232,6 +231,7 @@ IDEX	idex
 ISX	isx
 Independent Reserve	independent-reserve
 InfinityCoin Exchange	infinitycoin-exchange
+Iquant	iquant
 Koineks	koineks
 Koinex	koinex
 Koinim	koinim
@@ -286,9 +286,11 @@ Tidebit	tidebit
 Tidex	tidex
 Token Store	token-store
 Trade Satoshi	trade-satoshi
+TradeOgre	tradeogre
 Tripe Dice Exchange	triple-dice-exchange
 Tux Exchange	tux-exchange
 Upbit	upbit
+Vebitcoin	vebitcoin
 VirtacoinWorld	virtacoinworld
 WEX	wex
 Waves Decentralized Exchange	waves-dex
