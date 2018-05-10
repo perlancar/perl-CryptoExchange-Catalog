@@ -147,13 +147,11 @@ L<CryptoCurrency::Catalog>
 
 __DATA__
 ACX	acx	ACX
-AEX	aex	AEX
 Abucoins	abucoins	ABUCOINS
 AidosMarket	aidos-market
 Allcoin	allcoin	ALLCOIN
-Altcoin Trader	altcoin-trader
+B2BX	b2bx	B2BX
 BCEX	bcex	BCEX
-BITHOLIC	bitholic	BITHOLIC
 BL3P	bl3p	BL3P
 BTC Markets	btc-markets	BTCMARKETS
 BTC Trade UA	btc-trade-ua	BTCTRADEUA
@@ -172,13 +170,13 @@ Bit-Z	bit-z	BITZ
 Bit2C	bit2c	BIT2C
 BitBay	bitbay	BITBAY
 BitFlip	bitflip	BITFLIP
+BitForex	bitforex	BITFOREX
 BitKonan	bitkonan	BITKONAN
 BitMEX	bitmex	BITMEX
 BitMarket	bitmarket	BITMARKET
 BitShares Asset Exchange	bitshares-asset-exchange
 Bitbank	bitbank	BITBANK
 Bitbns	bitbns	BITBNS
-Bitcoin Indonesia	bitcoin-indonesia	INDODAX
 BitcoinToYou	bitcointoyou
 BitcoinTrade	bitcointrade
 Bitex.la	bitex-la	BITEXLA
@@ -199,7 +197,7 @@ Bittylicious	bittylicious
 Bleutrade	bleutrade	BLEUTRADE
 Braziliex	braziliex	BRAZILIEX
 BtcTrade.im	btctrade-im	BTCTRADEIM
-Burst Asset Exchange	burst-asset-exchange
+Buda	surbtc	BUDA
 C-CEX	c-cex	CCEX
 C-Patex	c-patex	CPATEX
 C2CX	c2cx	C2CX
@@ -210,7 +208,9 @@ ChaoEX	chaoex	CHAOEX
 Cobinhood	cobinhood	COBINHOOD
 CoinBene	coinbene	COINBENE
 CoinCorner	coincorner	COINCORNER
+CoinEgg	coinegg	COINEGG
 CoinEx	coinex	COINEX
+CoinEx Market	coinexmarket
 CoinExchange	coinexchange
 CoinFalcon	coinfalcon	COINFALCON
 CoinMate	coinmate	COINMATE
@@ -218,7 +218,7 @@ CoinTiger	cointiger	COINTIGER
 Coinbe	coinbe	COINBE
 Coinfloor	coinfloor	COINFLOOR
 Coingi	coingi	COINGI
-Coinhouse	coinhouse	COINHOUSE
+Coinhub	coinhub	COINHUB
 Coinlink	coinlink	COINLINK
 Coinnest	coinnest	COINNEST
 Coinone	coinone	COINONE
@@ -226,23 +226,22 @@ Coinrail	coinrail	COINRAIL
 Coinrate	coinrate	COINRATE
 Coinroom	coinroom	COINROOM
 CoinsBank	coinsbank	COINSBANK
-Coinsecure	coinsecure	COINSECURE
 Coinsquare	coinsquare	COINSQUARE
+Coinsuper	coinsuper	COINSUPER
 Coinut	coinut	COINUT
 Counterparty DEX	counterparty-dex
 Crex24	crex24	CREX24
 CryptoBridge	cryptobridge
-CryptoDerivatives	cryptoderivatives
 CryptoMarket	cryptomarket
 Cryptohub	cryptohub	CRYPTOHUB
 Cryptomate	cryptomate	CRYPTOMATE
 Cryptonex	cryptonex	CRYPTONEX
 Cryptopia	cryptopia	CRYPTOPIA
 Cryptox	cryptox	CRYPTOX
-DC-Ex	dc-ex	DCEX
 DDEX	ddex	DDEX
 DSX	dsx	DSX
 Dgtmarket	dgtmarket	DGTMARKET
+DragonEX	dragonex	DRAGONEX
 EXX	exx	EXX
 EtherDelta (ForkDelta)	forkdelta	FORKDELTA
 Ethfinex	ethfinex	ETHFINEX
@@ -260,15 +259,16 @@ Gate.io	gate-io	GATEIO
 Gatecoin	gatecoin	GATECOIN
 Gatehub	gatehub	GATEHUB
 Gemini	gemini	GEMINI
-GetBTC	getbtc	GETBTC
 GuldenTrader	guldentrader
 Heat Wallet	heat-wallet	HEATWALLET
 HitBTC	hitbtc	HITBTC
+Hotbit	hotbit	HOTBIT
 Huobi	huobi	HUOBI
 IDAX	idax	IDAX
 IDEX	idex	IDEX
 ISX	isx	ISX
 Independent Reserve	independent-reserve
+Indodax	indodax	INDODAX
 InfinityCoin Exchange	infinitycoin-exchange
 Iquant	iquant	IQUANT
 Koineks	koineks	KOINEKS
@@ -278,11 +278,11 @@ Korbit	korbit	KORBIT
 Kraken	kraken	KRAKEN
 Kucoin	kucoin	KUCOIN
 Kuna	kuna	KUNA
+Kyber Network	kyber-network
 LATOKEN	latoken	LATOKEN
 LEOxChange	leoxchange	LEOXCHANGE
 LakeBTC	lakebtc	LAKEBTC
 Lbank	lbank	LBANK
-Lendconnect	lendconnect
 Liqui	liqui	LIQUI
 LiteBit.eu	litebit	LITEBIT
 Livecoin	livecoin	LIVECOIN
@@ -293,11 +293,11 @@ MBAex	mbaex	MBAEX
 Mercado Bitcoin	mercado-bitcoin
 Mercatox	mercatox	MERCATOX
 Mr. Exchange	mr-exchange	MREXCHANGE
-NIX-E	nix-e	NIXE
 Nanex	nanex	NANEX
 Negocie Coins	negocie-coins
-Neraex	neraexpro	NERAEXPRO
+Neraex	neraexpro	NERAEX
 Nocks	nocks	NOCKS
+Novaexchange	novaexchange
 OEX	oex	OEX
 OKCoin.cn	okcoin-cn	OKCOINCN
 OKEx	okex	OKEX
@@ -309,6 +309,7 @@ OkCoin Intl.	okcoin-intl	OKCOININTL
 Omicrex	omicrex	OMICREX
 OpenLedger DEX	openledger	OPENLEDGER
 Ore.Bz	ore-bz	OREBZ
+Orionx	orionx	ORIONX
 Ovis	ovis	OVIS
 Paradex	paradex	PARADEX
 Paribu	paribu	PARIBU
@@ -321,7 +322,6 @@ Quoine	quoine	QUOINE
 Radar Relay	radar-relay	RADARRELAY
 Rfinex	rfinex	RFINEX
 RightBTC	rightbtc	RIGHTBTC
-Rippex	rippex	RIPPEX
 Ripple China	ripple-china
 RippleFox	ripplefox	RIPPLEFOX
 RuDEX	rudex	RUDEX
@@ -329,10 +329,9 @@ Simex	simex	SIMEX
 Sistemkoin	sistemkoin	SISTEMKOIN
 SouthXchange	southxchange
 Stellar Decentralized Exchange	stellar-decentralized-exchange
-Stellarport	stellarport
 Stocks.Exchange	stocks-exchange
 Stronghold	stronghold	STRONGHOLD
-SurBTC	surbtc	SURBTC
+Switcheo Network	switcheo	SWITCHEO
 TCC Exchange	tcc-exchange
 TDAX	tdax	TDAX
 TOPBTC	topbtc	TOPBTC
@@ -357,5 +356,6 @@ Zebpay	zebpay	ZEBPAY
 bitFlyer	bitflyer	BITFLYER
 cfinex	cfinex	CFINEX
 ezBtc	ezbtc	EZBTC
+fex	fexpro	FEX
 itBit	itbit	ITBIT
 xBTCe	xbtce	XBTCE

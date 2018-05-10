@@ -45,11 +45,13 @@ LOAD_SCRAPE_RESULT: {
 
         my $autocode;
         {
-            my $tmp = uc($safename);
-            $tmp =~ s/-//g;
-            if (length $tmp <= 10) {
-                $autocode = $tmp;
-            }
+            my $s1 = uc($safename);
+            $s1 =~ s/-//g;
+            my $s2 = uc($name);
+            $s2 =~ s/[^A-Za-z0-9]+//g;
+            my @candidates = sort { length($a)<=>length($b) }
+                grep { length($_)>=1 && length($_)<=10 } ($s1, $s2);
+            $autocode = $candidates[0] if @candidates;
         }
         my $code = $codes{$safename} // $autocode;
         if (defined $code) {
