@@ -75,6 +75,15 @@ for my $n (sort keys %new_safenames) {
     if ($e1->{name} ne $e2->{name}) {
         push @chgs, "changed name from $e1->{name}";
     }
+
+    if ($e1->{code} && !$e2->{code}) {
+        push @chgs, "code $e1->{code} removed";
+    } elsif (!$e1->{code} && $e2->{code}) {
+        push @chgs, "given code $e2->{code}";
+    } elsif ($e1->{code} && $e2->{code} && $e1->{code} ne $e2->{code}) {
+        push @chgs, "changed code from $e1->{code} to $e2->{code}";
+    }
+
     next unless @chgs;
     say "${indent}  + $e2->{name} ".join(", ", @chgs);
 }

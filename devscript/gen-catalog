@@ -9,10 +9,26 @@ use File::Slurper qw(write_text);
 
 my $catalog_path = "$Bin/../devdata/catalog.csv";
 
+my %codes; # key=safename
+{
+    my %seen;
+    open my $fh, "<", "$Bin/../devdata/code.csv" or die;
+    <$fh>;
+    while (my $line = <$fh>) {
+        chomp $line;
+        my @ff = split /\t|,/, $line;
+        $ff[0] =~ /\A\w{1,10}\z/ or die "Invalid code in code.csv: $ff[0]";
+        die "Code $ff[0] given to multiple exchanges" if $codes{$ff[1]};
+        die "Duplicate code $ff[0]" if $seen{$ff[0]}++;
+        $codes{$ff[1]} = $ff[0];
+    }
+}
+
 my @scrape_result;
 my %by_safename;
 my %by_name;
 my %by_name_lc;
+my %by_code_lc;
 LOAD_SCRAPE_RESULT: {
     open my $fh, "<", "$Bin/../devdata/scrape-result.csv" or die;
     <$fh>;
@@ -27,9 +43,23 @@ LOAD_SCRAPE_RESULT: {
         $by_safename{$safename} and die "Duplicate safename $safename";
         $by_safename{$safename} = {name => $name};
 
-        push @scrape_result, [$name, $safename];
+        my $autocode;
+        {
+            my $tmp = uc($safename);
+            $tmp =~ s/-//g;
+            if (length $tmp <= 10) {
+                $autocode = $tmp;
+            }
+        }
+        my $code = $codes{$safename} // $autocode;
+        if (defined $code) {
+            $by_code_lc{lc $code} and die "Duplicate code $code";
+            $by_code_lc{lc $code} = {safename => $safename};
+        }
+
+        push @scrape_result, [$name, $safename, $code];
     }
 }
 
 @scrape_result = sort {$a->[0] cmp $b->[0]} @scrape_result;
-write_text($catalog_path, join("", map {join("\t", @$_)."\n"} @scrape_result));
+write_text($catalog_path, join("", map {join("\t", grep {defined} @$_)."\n"} @scrape_result));
