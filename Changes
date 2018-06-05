@@ -1,212 +1,34 @@
-20180605  2018-06-05 (PERLANCAR) (unreleased)
+20180605.1.0  2018-06-05 (PERLANCAR)
+
+          - No functional changes.
+
+          - Fix Changes.
+
+
+20180605  2018-06-05 (PERLANCAR)
 
           - Update catalog to CMC 2018-06-05.
 
           - [doc] Add missing example in Synopsis for by_code() & all_codes().
 
           - New exchanges:
-            + B2BX
-            + BitForex
+            + Altcoin Trader
             + BitMart
             + Coindeal
-            + CoinEgg
-            + CoinEx Market
-            + Coinhub
-            + Coinsuper
-            + DragonEX
-            + fex
-            + Hotbit
-            + Indodax
-            + Kyber Network
-            + Novaexchange
-            + Orionx
-            + Switcheo Network
+            + Stellarport
 
           - Removed exchanges:
             + Abucoins
-            + AEX
-            + Bitcoin Indonesia
-            + BITHOLIC
-            + Burst Asset Exchange
-            + Coinhouse
             + Coinlink
-            + Coinsecure
             + Counterparty DEX
-            + CryptoDerivatives
             + Cryptomate
-            + DC-Ex
-            + GetBTC
-            + Lendconnect
-            + NIX-E
             + Paradex
-            + Rippex
             + Stronghold
             + Unocoin
 
           - Changed exchanges:
-            + ACX given code ACX
-            + Allcoin given code ALLCOIN
-            + BarterDEX given code BARTERDEX
-            + BCEX given code BCEX
-            + Bibox given code BIBOX
-            + BigONE given code BIGONE
-            + Binance given code BINANCE
-            + Bisq given code BISQ
-            + Bit-Z given code BITZ
-            + Bit2C given code BIT2C
-            + Bitbank given code BITBANK
-            + BitBay given code BITBAY
-            + Bitbns given code BITBNS
-            + Bitex.la given code BITEXLA
-            + Bitfinex given code BITFINEX
-            + BitFlip given code BITFLIP
-            + bitFlyer given code BITFLYER
-            + Bithesap given code BITHESAP
-            + Bithumb given code BITHUMB
-            + Bitinka given code BITINKA
-            + BitKonan given code BITKONAN
-            + Bitlish given code BITLISH
-            + BitMarket given code BITMARKET
-            + Bitmaszyna given code BITMASZYNA
-            + BitMEX given code BITMEX
-            + Bitonic given code BITONIC
-            + Bitsane given code BITSANE
-            + Bitso given code BITSO
-            + Bitstamp given code BITSTAMP
-            + Bittrex given code BITTREX
-            + BL3P given code BL3P
-            + Bleutrade given code BLEUTRADE
-            + Braziliex given code BRAZILIEX
-            + BTC-Alpha given code BTCALPHA
-            + BTC Markets given code BTCMARKETS
-            + BTC Trade UA given code BTCTRADEUA
-            + BTCBOX given code BTCBOX
-            + BTCC given code BTCC
-            + BtcTrade.im given code BTCTRADEIM
-            + BTCTurk given code BTCTURK
-            + BX Thailand given code BX
-            + C-CEX given code CCEX
-            + C-Patex given code CPATEX
-            + C2CX given code C2CX
-            + CEX.IO given code CEXIO
-            + cfinex given code CFINEX
-            + ChaoEX given code CHAOEX
-            + Cobinhood given code COBINHOOD
-            + Coinbe given code COINBE
-            + CoinBene given code COINBENE
-            + CoinCorner given code COINCORNER
-            + CoinEx given code COINEX
-            + CoinFalcon given code COINFALCON
-            + Coinfloor given code COINFLOOR
-            + Coingi given code COINGI
-            + CoinMate given code COINMATE
-            + Coinnest given code COINNEST
-            + Coinone given code COINONE
-            + Coinrail given code COINRAIL
-            + Coinrate given code COINRATE
-            + Coinroom given code COINROOM
-            + CoinsBank given code COINSBANK
-            + Coinsquare given code COINSQUARE
-            + CoinTiger given code COINTIGER
-            + Coinut given code COINUT
-            + COSS given code COSS
-            + Crex24 given code CREX24
-            + CRXzone given code CRXZONE
-            + Cryptohub given code CRYPTOHUB
-            + Cryptonex given code CRYPTONEX
-            + Cryptopia given code CRYPTOPIA
-            + Cryptox given code CRYPTOX
-            + DDEX given code DDEX
-            + Dgtmarket given code DGTMARKET
-            + DSX given code DSX
-            + Ethfinex given code ETHFINEX
-            + Exmo given code EXMO
-            + Exrates given code EXRATES
-            + EXX given code EXX
-            + ezBtc given code EZBTC
-            + Fargobase given code FARGOBASE
-            + Fatbtc given code FATBTC
-            + Fisco given code FISCO
-            + EtherDelta (ForkDelta) given code FORKDELTA
-            + Foxbit given code FOXBIT
-            + Gate.io given code GATEIO
-            + Gatecoin given code GATECOIN
-            + Gatehub given code GATEHUB
-            + GDAX given code GDAX
-            + Gemini given code GEMINI
-            + GOPAX given code GOPAX
-            + Heat Wallet given code HEATWALLET
-            + HitBTC given code HITBTC
-            + Huobi given code HUOBI
-            + IDAX given code IDAX
-            + IDEX given code IDEX
-            + Iquant given code IQUANT
-            + ISX given code ISX
-            + itBit given code ITBIT
-            + Koineks given code KOINEKS
-            + Koinex given code KOINEX
-            + Koinim given code KOINIM
-            + Korbit given code KORBIT
-            + Kraken given code KRAKEN
-            + Kucoin given code KUCOIN
-            + Kuna given code KUNA
-            + LakeBTC given code LAKEBTC
-            + LATOKEN given code LATOKEN
-            + LBank changed name from Lbank, given code LBANK
-            + LEOxChange given code LEOXCHANGE
-            + Liqui given code LIQUI
-            + LiteBit.eu given code LITEBIT
-            + Livecoin given code LIVECOIN
-            + LocalTrade given code LOCALTRADE
-            + Luno given code LUNO
-            + MBAex given code MBAEX
-            + Mercatox given code MERCATOX
-            + Mr. Exchange given code MREXCHANGE
-            + Nanex given code NANEX
-            + Neraex given code NERAEX
-            + Nocks given code NOCKS
-            + OasisDEX given code OASISDEX
-            + Octaex given code OCTAEX
-            + OEX given code OEX
-            + OKCoin.cn given code OKCOINCN
-            + OKCoin International changed name from OkCoin Intl., given code OKCOININTL
-            + OKEx given code OKEX
-            + Omicrex given code OMICREX
-            + OOOBTC given code OOOBTC
-            + OpenLedger DEX given code OPENLEDGER
-            + Ore.Bz given code OREBZ
-            + OTCBTC given code OTCBTC
-            + Ovis given code OVIS
-            + Paribu given code PARIBU
-            + Paymium given code PAYMIUM
-            + Poloniex given code POLONIEX
-            + QBTC given code QBTC
-            + Qryptos given code QRYPTOS
-            + QuadrigaCX given code QUADRIGACX
-            + Quoine given code QUOINE
-            + Radar Relay given code RADARRELAY
-            + Rfinex given code RFINEX
-            + RightBTC given code RIGHTBTC
-            + RippleFox given code RIPPLEFOX
-            + RuDEX given code RUDEX
-            + Simex given code SIMEX
-            + Sistemkoin given code SISTEMKOIN
-            + Buda changed name from SurBTC, given code BUDA
-            + TDAX given code TDAX
-            + Tidebit given code TIDEBIT
-            + Tidex given code TIDEX
-            + Token Store given code TOKENSTORE
-            + TOPBTC given code TOPBTC
-            + TradeOgre given code TRADEOGRE
-            + Upbit given code UPBIT
-            + Vebitcoin given code VEBITCOIN
-            + Waves Decentralized Exchange given code WAVESDEX
-            + WEX given code WEX
-            + xBTCe given code XBTCE
-            + YoBit given code YOBIT
-            + Zaif given code ZAIF
-            + ZB.COM given code ZBCOM
-            + Zebpay given code ZEBPAY
+            + LBank changed name from Lbank
+            + OKCoin International changed name from OkCoin Intl.
 
           - Total exchanges now 210 (from 213)
 
@@ -254,7 +76,7 @@
           - Total exchanges now 213 (from 213)
 
 
-20180403  2018-01-30 (PERLANCAR)
+20180403  2018-04-03 (PERLANCAR)
 
           - Update to CMC 2018-04-03.
 
