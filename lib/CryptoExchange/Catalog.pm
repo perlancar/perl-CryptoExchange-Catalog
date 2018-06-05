@@ -102,13 +102,17 @@ sub all_data {
 
  my $cat = CryptoExchange::Catalog->new;
 
- my $record = $cat->by_name("BX Thailand");     # note: case-insensitive. => {name=>"BX Thailand", safename=>"bx-thailand", code=>"BX"}
- my $record = $cat->by_safename("bx-thailand");
- my $record = $cat->by_slug("bx-thailand");     # alias for by_safename(), mixed case also works
+ my $record;
+ $record = $cat->by_name("BX Thailand");     # note: case-insensitive. => {name=>"BX Thailand", safename=>"bx-thailand", code=>"BX"}
+ $record = $cat->by_safename("bx-thailand");
+ $record = $cat->by_slug("bx-thailand");     # alias for by_safename(), mixed case also works
+ $record = $cat->by_code("BX");              # note: currently not all exchanges are assign (short) code
 
- my @names = $cat->all_names(); # => ("Binance", "Bithumb", ...)
+ my @names = $cat->all_names(); # => ("BX Thailand", "Binance", ...)
 
- my @data = $cat->all_data; # => ({name=>"Binance", safename=>"binance", code=>"BINANCE"}, {...}, ...)
+ my @codes = $cat->all_codes(); # => ("BX", "BINANCE", ...)
+
+ my @data = $cat->all_data; # => ({name=>"BX Thailand", safename=>"bx-thailand", code=>"BX"}, {name=>"Binance", safename=>"binance", code=>"BINANCE"}, {...}, ...)
 
 
 =head1 DESCRIPTION
