@@ -25,7 +25,7 @@ my $content;
 my @res;
 
 push @res, "name\tsafename\n";
-while ($content =~ m!<a href="/exchanges/(?<safename>[^/]+?)/?">(?<name>.+?)</a></h3></td>!g) {
+while ($content =~ m!<a [^>]*href="/exchanges/(?<safename>[^/]+?)/?">(?<name>.+?)</a></h3></td>!g) {
     push @res, "$+{name}\t$+{safename}\n";
 }
 

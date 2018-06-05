@@ -1,214 +1,211 @@
 name	safename
-Binance	binance
-OKEx	okex
 BitMEX	bitmex
+OKEx	okex
+Binance	binance
 Huobi	huobi
-Upbit	upbit
-Bithumb	bithumb
 Bitfinex	bitfinex
-Lbank	lbank
+Bithumb	bithumb
+Upbit	upbit
 HitBTC	hitbtc
-Bit-Z	bit-z
-Bittrex	bittrex
-CoinBene	coinbene
-GDAX	gdax
 Bibox	bibox
+Bit-Z	bit-z
 BCEX	bcex
-Gate.io	gate-io
+GDAX	gdax
 Kraken	kraken
-EXX	exx
+ZB.COM	zb-com
+LBank	lbank
 Bitstamp	bitstamp
-Quoine	quoine
+EXX	exx
+Coinsuper	coinsuper
+Bitbank	bitbank
+Gate.io	gate-io
+CoinEgg	coinegg
+TOPBTC	topbtc
+Simex	simex
+OEX	oex
+Bittrex	bittrex
+Allcoin	allcoin
+CoinBene	coinbene
 bitFlyer	bitflyer
 Zaif	zaif
-Fisco	fisco
-OEX	oex
-CoinEgg	coinegg
-Bitbank	bitbank
-BTCC	btcc
-Simex	simex
-Poloniex	poloniex
-ZB.COM	zb-com
-TOPBTC	topbtc
-BTCBOX	btcbox
-WEX	wex
-RightBTC	rightbtc
-Kucoin	kucoin
 IDAX	idax
+Kucoin	kucoin
+Fisco	fisco
+BTCC	btcc
+Quoine	quoine
+WEX	wex
 CoinsBank	coinsbank
-Gemini	gemini
-Coinsuper	coinsuper
+RightBTC	rightbtc
 CoinTiger	cointiger
-Coinone	coinone
-Exmo	exmo
-GOPAX	gopax
-Livecoin	livecoin
-B2BX	b2bx
-fex	fexpro
-DragonEX	dragonex
-Coinhub	coinhub
-Neraex	neraexpro
+Bits Blockchain	bits-blockchain
+Poloniex	poloniex
 Exrates	exrates
-Liqui	liqui
-itBit	itbit
-Korbit	korbit
-YoBit	yobit
+Coinone	coinone
 Bitinka	bitinka
-Tidex	tidex
-Ethfinex	ethfinex
-OTCBTC	otcbtc
-Coinroom	coinroom
-Coinrail	coinrail
-Cobinhood	cobinhood
+Exmo	exmo
+BTCBOX	btcbox
+Livecoin	livecoin
+BitForex	bitforex
+Fatbtc	fatbtc
+itBit	itbit
+Gemini	gemini
+B2BX	b2bx
+YoBit	yobit
+BtcTrade.im	btctrade-im
+Liqui	liqui
+Coinhub	coinhub
+IDEX	idex
+Qryptos	qryptos
+Neraex	neraexpro
+fex	fexpro
+Sistemkoin	sistemkoin
+DragonEX	dragonex
+Korbit	korbit
 Trade By Trade	trade-by-trade
+Indodax	indodax
 xBTCe	xbtce
 Omicrex	omicrex
-Fatbtc	fatbtc
-Allcoin	allcoin
-Sistemkoin	sistemkoin
-OOOBTC	ooobtc
-Bancor Network	bancor-network
+Tidex	tidex
+Coinroom	coinroom
 C2CX	c2cx
 Hotbit	hotbit
-Qryptos	qryptos
-Cryptopia	cryptopia
-BtcTrade.im	btctrade-im
-IDEX	idex
-Vebitcoin	vebitcoin
-BitBay	bitbay
-QBTC	qbtc
-LakeBTC	lakebtc
-ChaoEX	chaoex
-Coinnest	coinnest
-BitForex	bitforex
-BigONE	bigone
-Zebpay	zebpay
-Iquant	iquant
-Indodax	indodax
-CEX.IO	cex-io
-Bits Blockchain	bits-blockchain
-CoinEx	coinex
-Octaex	octaex
-DDEX	ddex
-Ovis	ovis
-CoinEx Market	coinexmarket
-BTC-Alpha	btc-alpha
-Koinex	koinex
-Koineks	koineks
-CoinExchange	coinexchange
-MBAex	mbaex
-Negocie Coins	negocie-coins
-Paribu	paribu
-Mercatox	mercatox
-BTCTurk	btcturk
-BX Thailand	bx-thailand
-BitShares Asset Exchange	bitshares-asset-exchange
-BTC Markets	btc-markets
-QuadrigaCX	quadrigacx
-Luno	luno
-Gatecoin	gatecoin
-Rfinex	rfinex
-LATOKEN	latoken
-DSX	dsx
-Fargobase	fargobase
-Bitso	bitso
-CryptoBridge	cryptobridge
+GOPAX	gopax
+Ethfinex	ethfinex
+OOOBTC	ooobtc
+OTCBTC	otcbtc
 Waves Decentralized Exchange	waves-dex
-Bitbns	bitbns
-Coinsquare	coinsquare
-Cryptonex	cryptonex
-COSS	coss
-Foxbit	foxbit
-EtherDelta (ForkDelta)	forkdelta
-Mercado Bitcoin	mercado-bitcoin
-OkCoin Intl.	okcoin-intl
-Coinfloor	coinfloor
-Unocoin	unocoin
-Independent Reserve	independent-reserve
-Bitonic	bitonic
+Cryptopia	cryptopia
+CEX.IO	cex-io
+BitBay	bitbay
+Mercatox	mercatox
+Vebitcoin	vebitcoin
 Bithesap	bithesap
-BL3P	bl3p
-LiteBit.eu	litebit
-AidosMarket	aidos-market
-BitcoinToYou	bitcointoyou
-C-CEX	c-cex
-Switcheo Network	switcheo
-OpenLedger DEX	openledger
-Gatehub	gatehub
-BitcoinTrade	bitcointrade
-BitMarket	bitmarket
-Stocks.Exchange	stocks-exchange
-OasisDEX	oasisdex
-Trade Satoshi	trade-satoshi
-Kyber Network	kyber-network
-RippleFox	ripplefox
-Koinim	koinim
-TradeOgre	tradeogre
-Lykke Exchange	lykke-exchange
-CoinMate	coinmate
-BitFlip	bitflip
-The Rock Trading	therocktrading
-Kuna	kuna
+LATOKEN	latoken
+MBAex	mbaex
+LakeBTC	lakebtc
+BitShares Asset Exchange	bitshares-asset-exchange
+BTC-Alpha	btc-alpha
+Bancor Network	bancor-network
+Rfinex	rfinex
+Coinrail	coinrail
+BTCTurk	btcturk
+COSS	coss
+Zebpay	zebpay
+BigONE	bigone
+CoinEx	coinex
+Ovis	ovis
+BitMart	bitmart
+QBTC	qbtc
+Koineks	koineks
+Coinnest	coinnest
+Paribu	paribu
+BTC Markets	btc-markets
+Luno	luno
+ChaoEX	chaoex
+Negocie Coins	negocie-coins
+Bitso	bitso
+CoinEx Market	coinexmarket
+DSX	dsx
 Tidebit	tidebit
-Radar Relay	radar-relay
-Nanex	nanex
-Bleutrade	bleutrade
-Bittylicious	bittylicious
-Braziliex	braziliex
-Stellar Decentralized Exchange	stellar-decentralized-exchange
-ACX	acx
-TDAX	tdax
-Crex24	crex24
-CoinCorner	coincorner
-Bitstamp (Ripple Gateway)	bitstamp-ripple-gateway
-CoinFalcon	coinfalcon
-BTC Trade UA	btc-trade-ua
+CoinExchange	coinexchange
+BX Thailand	bx-thailand
+QuadrigaCX	quadrigacx
+Iquant	iquant
+Koinex	koinex
+Cryptonex	cryptonex
 Bitlish	bitlish
-SouthXchange	southxchange
-Ripple China	ripple-china
-Coinrate	coinrate
-Mr. Exchange	mr-exchange
+Switcheo Network	switcheo
+Coinsquare	coinsquare
+CryptoBridge	cryptobridge
+Bitonic	bitonic
+Independent Reserve	independent-reserve
+Bitbns	bitbns
+TradeOgre	tradeogre
+Coindeal	coindeal
+Mercado Bitcoin	mercado-bitcoin
+LiteBit.eu	litebit
+Fargobase	fargobase
+Foxbit	foxbit
+Coinfloor	coinfloor
+Trade Satoshi	trade-satoshi
+Cobinhood	cobinhood
+Altcoin Trader	altcoin-trader
+BitcoinTrade	bitcointrade
+BL3P	bl3p
+BitMarket	bitmarket
+RippleFox	ripplefox
+DDEX	ddex
+Gatecoin	gatecoin
+Kuna	kuna
+Stocks.Exchange	stocks-exchange
+Gatehub	gatehub
+The Rock Trading	therocktrading
+Bleutrade	bleutrade
+OKCoin International	okcoin-intl
+EtherDelta (ForkDelta)	forkdelta
+C-CEX	c-cex
+BitcoinToYou	bitcointoyou
+Lykke Exchange	lykke-exchange
+OasisDEX	oasisdex
+Octaex	octaex
+Stellar Decentralized Exchange	stellar-decentralized-exchange
+Koinim	koinim
+Braziliex	braziliex
+ACX	acx
+CoinMate	coinmate
 Buda	surbtc
-InfinityCoin Exchange	infinitycoin-exchange
-Coinut	coinut
-Coinbe	coinbe
-Bitsane	bitsane
-cfinex	cfinex
-Paradex	paradex
-Tripe Dice Exchange	triple-dice-exchange
-Bit2C	bit2c
-CRXzone	crxzone
+Crex24	crex24
 Bitex.la	bitex-la
-CryptoMarket	cryptomarket
-Bisq	bisq
-Cryptox	cryptox
+CoinCorner	coincorner
+Bittylicious	bittylicious
+Coinut	coinut
+Ripple China	ripple-china
 ezBtc	ezbtc
-Nocks	nocks
-Bitmaszyna	bitmaszyna
-Token Store	token-store
-TCC Exchange	tcc-exchange
-Abucoins	abucoins
-OKCoin.cn	okcoin-cn
-Stronghold	stronghold
-Tux Exchange	tux-exchange
-Cryptomate	cryptomate
-Dgtmarket	dgtmarket
-RuDEX	rudex
-ISX	isx
-Paymium	paymium
-Ore.Bz	ore-bz
+Kyber Network	kyber-network
+AidosMarket	aidos-market
+Coinbe	coinbe
+BTC Trade UA	btc-trade-ua
+CryptoMarket	cryptomarket
+CoinFalcon	coinfalcon
+Bitstamp (Ripple Gateway)	bitstamp-ripple-gateway
+InfinityCoin Exchange	infinitycoin-exchange
+Nanex	nanex
 Cryptohub	cryptohub
-FreiExchange	freiexchange
-BitKonan	bitkonan
+TDAX	tdax
+Stellarport	stellarport
+CRXzone	crxzone
+Bitsane	bitsane
+SouthXchange	southxchange
+BitFlip	bitflip
+OpenLedger DEX	openledger
+Radar Relay	radar-relay
+Nocks	nocks
+Mr. Exchange	mr-exchange
+Bit2C	bit2c
+Cryptox	cryptox
+Paymium	paymium
+Bisq	bisq
+Token Store	token-store
+OKCoin.cn	okcoin-cn
+Tripe Dice Exchange	triple-dice-exchange
+RuDEX	rudex
+cfinex	cfinex
+Bitmaszyna	bitmaszyna
+GuldenTrader	guldentrader
+Coinrate	coinrate
 LocalTrade	localtrade
+BitKonan	bitkonan
+Tux Exchange	tux-exchange
+BarterDEX	barterdex
+TCC Exchange	tcc-exchange
+FreiExchange	freiexchange
 Novaexchange	novaexchange
 C-Patex	c-patex
-ExcambrioRex	excambriorex
+Ore.Bz	ore-bz
 Orionx	orionx
-GuldenTrader	guldentrader
-BarterDEX	barterdex
-Coinlink	coinlink
 Heat Wallet	heat-wallet
 Coingi	coingi
 LEOxChange	leoxchange
-Counterparty DEX	counterparty-dex
+ISX	isx
+ExcambrioRex	excambriorex
+Dgtmarket	dgtmarket

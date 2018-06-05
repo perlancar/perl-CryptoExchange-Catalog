@@ -151,9 +151,9 @@ L<CryptoCurrency::Catalog>
 
 __DATA__
 ACX	acx	ACX
-Abucoins	abucoins	ABUCOINS
 AidosMarket	aidos-market
 Allcoin	allcoin	ALLCOIN
+Altcoin Trader	altcoin-trader
 B2BX	b2bx	B2BX
 BCEX	bcex	BCEX
 BL3P	bl3p	BL3P
@@ -178,6 +178,7 @@ BitForex	bitforex	BITFOREX
 BitKonan	bitkonan	BITKONAN
 BitMEX	bitmex	BITMEX
 BitMarket	bitmarket	BITMARKET
+BitMart	bitmart	BITMART
 BitShares Asset Exchange	bitshares-asset-exchange
 Bitbank	bitbank	BITBANK
 Bitbns	bitbns	BITBNS
@@ -220,10 +221,10 @@ CoinFalcon	coinfalcon	COINFALCON
 CoinMate	coinmate	COINMATE
 CoinTiger	cointiger	COINTIGER
 Coinbe	coinbe	COINBE
+Coindeal	coindeal	COINDEAL
 Coinfloor	coinfloor	COINFLOOR
 Coingi	coingi	COINGI
 Coinhub	coinhub	COINHUB
-Coinlink	coinlink	COINLINK
 Coinnest	coinnest	COINNEST
 Coinone	coinone	COINONE
 Coinrail	coinrail	COINRAIL
@@ -233,12 +234,10 @@ CoinsBank	coinsbank	COINSBANK
 Coinsquare	coinsquare	COINSQUARE
 Coinsuper	coinsuper	COINSUPER
 Coinut	coinut	COINUT
-Counterparty DEX	counterparty-dex
 Crex24	crex24	CREX24
 CryptoBridge	cryptobridge
 CryptoMarket	cryptomarket
 Cryptohub	cryptohub	CRYPTOHUB
-Cryptomate	cryptomate	CRYPTOMATE
 Cryptonex	cryptonex	CRYPTONEX
 Cryptopia	cryptopia	CRYPTOPIA
 Cryptox	cryptox	CRYPTOX
@@ -284,9 +283,9 @@ Kucoin	kucoin	KUCOIN
 Kuna	kuna	KUNA
 Kyber Network	kyber-network
 LATOKEN	latoken	LATOKEN
+LBank	lbank	LBANK
 LEOxChange	leoxchange	LEOXCHANGE
 LakeBTC	lakebtc	LAKEBTC
-Lbank	lbank	LBANK
 Liqui	liqui	LIQUI
 LiteBit.eu	litebit	LITEBIT
 Livecoin	livecoin	LIVECOIN
@@ -303,19 +302,18 @@ Neraex	neraexpro	NERAEX
 Nocks	nocks	NOCKS
 Novaexchange	novaexchange
 OEX	oex	OEX
+OKCoin International	okcoin-intl	OKCOININTL
 OKCoin.cn	okcoin-cn	OKCOINCN
 OKEx	okex	OKEX
 OOOBTC	ooobtc	OOOBTC
 OTCBTC	otcbtc	OTCBTC
 OasisDEX	oasisdex	OASISDEX
 Octaex	octaex	OCTAEX
-OkCoin Intl.	okcoin-intl	OKCOININTL
 Omicrex	omicrex	OMICREX
 OpenLedger DEX	openledger	OPENLEDGER
 Ore.Bz	ore-bz	OREBZ
 Orionx	orionx	ORIONX
 Ovis	ovis	OVIS
-Paradex	paradex	PARADEX
 Paribu	paribu	PARIBU
 Paymium	paymium	PAYMIUM
 Poloniex	poloniex	POLONIEX
@@ -333,8 +331,8 @@ Simex	simex	SIMEX
 Sistemkoin	sistemkoin	SISTEMKOIN
 SouthXchange	southxchange
 Stellar Decentralized Exchange	stellar-decentralized-exchange
+Stellarport	stellarport
 Stocks.Exchange	stocks-exchange
-Stronghold	stronghold	STRONGHOLD
 Switcheo Network	switcheo	SWITCHEO
 TCC Exchange	tcc-exchange
 TDAX	tdax	TDAX
@@ -348,7 +346,6 @@ Trade Satoshi	trade-satoshi
 TradeOgre	tradeogre	TRADEOGRE
 Tripe Dice Exchange	triple-dice-exchange
 Tux Exchange	tux-exchange
-Unocoin	unocoin	UNOCOIN
 Upbit	upbit	UPBIT
 Vebitcoin	vebitcoin	VEBITCOIN
 WEX	wex	WEX
