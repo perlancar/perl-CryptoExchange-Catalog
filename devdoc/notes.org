@@ -1,0 +1,27 @@
+* Updating data
+
+1. Run the devscript/update script. This will download a new devdoc/cmc.html
+   (unless it's recent enough, <1d old). It will then parse (read: scrape) the
+   HTML into devdata/scrape-result.csv. And finally it will produce
+   devdata/catalog.csv.
+
+   It might also be helpful to add more exchange short codes list in
+   devdata/code.csv.
+
+   When the update script exits with an error message, fix the error then run it
+   again.
+
+   See also the devdoc/notes.org of CryptoCurrency-Catalog distribution.
+
+2. Replace the content of the __DATA__ section of lib/CryptoExchange/Catalog.pm
+   with the content of devdata/catalog.csv.
+
+3. That's it. Commit the change.
+
+4. If you release the new version, don't forget to add the version to the
+   archive/ and commit it. The archive is used for purposes mentioned below.
+
+4. To produce a Changes entry, run the
+   devscript/diff-catalog-between-two-versions. This will by default load the
+   lib/ version and the newest archive/ version then compare the two and produce
+   a formatted Changes entry.
