@@ -1,0 +1,272 @@
+20181129.0.0  2018-11-29 (PERLANCAR)
+
+          - New exchanges:
+            + ABCC
+            + AirSwap
+            + Allbit
+            + BCoin.sg
+            + Bgogo
+            + Bilaxy
+            + BITBOX
+            + BiteBTC
+            + Bitibu
+            + Bitkub
+            + Bitrue
+            + Buda
+            + Bytex
+            + Cashierest
+            + Coinall
+            + Coinbase Pro
+            + Coinbit
+            + Coincheck
+            + CoinZest
+            + CPDAX
+            + CryptalDash
+            + Cryptology
+            + Cryptomate
+            + DEx.top
+            + DigiFinex
+            + DOBI trade
+            + Escodex
+            + FCoin
+            + GBX Digital Asset Exchange
+            + GDAC
+            + Graviex
+            + HADAX
+            + HBUS
+            + IDCM
+            + Instant Bitex
+            + Kryptono
+            + Liquid
+            + P2PB2B
+            + STEX
+            + Stronghold
+            + Tokenomy
+            + UEX
+            + WazirX
+            + YunEx
+            + ZBG
+
+          - Removed exchanges:
+            + BarterDEX
+            + BitFlip
+            + BitKonan
+            + Bitmaszyna
+            + BL3P
+            + cfinex
+            + CoinEx Market
+            + Cryptohub
+            + Cryptox
+            + Dgtmarket
+            + ExcambrioRex
+            + Fargobase
+            + fex
+            + Foxbit
+            + GDAX
+            + LEOxChange
+            + Mr. Exchange
+            + Octaex
+            + OKCoin.cn
+            + Omicrex
+            + Ore.Bz
+            + Orionx
+            + QBTC
+            + Qryptos
+            + Quoine
+            + Stocks.Exchange
+            + Buda
+            + TCC Exchange
+            + WEX
+            + xBTCe
+
+          - Changed exchanges:
+            + BtcTurk changed name from BTCTurk
+            + CHAOEX changed name from ChaoEX
+
+          - Total exchanges now 225 (from 210)
+
+
+20180605.1.0  2018-06-05 (PERLANCAR)
+
+          - No functional changes.
+
+          - Fix Changes.
+
+
+20180605  2018-06-05 (PERLANCAR)
+
+          - Update catalog to CMC 2018-06-05.
+
+          - [doc] Add missing example in Synopsis for by_code() & all_codes().
+
+          - New exchanges:
+            + Altcoin Trader
+            + BitMart
+            + Coindeal
+            + Stellarport
+
+          - Removed exchanges:
+            + Abucoins
+            + Coinlink
+            + Counterparty DEX
+            + Cryptomate
+            + Paradex
+            + Stronghold
+            + Unocoin
+
+          - Changed exchanges:
+            + LBank changed name from Lbank
+            + OKCoin International changed name from OkCoin Intl.
+
+          - Total exchanges now 210 (from 213)
+
+
+20180510  2018-05-10 (PERLANCAR)
+
+          - Exchanges are now given codes (unique 1-10 letters). Not all
+            exchanges have codes yet. Also these methods are added: by_code(),
+            all_codes().
+
+          - Update catalog to CMC 2018-05-10.
+
+          - New exchanges:
+            + B2BX
+            + BitForex
+            + CoinEgg
+            + CoinEx Market
+            + Coinhub
+            + Coinsuper
+            + DragonEX
+            + fex
+            + Hotbit
+            + Indodax (previously Bitcoin Indonesia)
+            + Kyber Network
+            + Novaexchange
+            + Orionx
+            + Switcheo Network
+
+          - Removed exchanges:
+            + AEX
+            + Altcoin Trader
+            + Bitcoin Indonesia
+            + BITHOLIC
+            + Burst Asset Exchange
+            + Coinhouse
+            + Coinsecure
+            + CryptoDerivatives
+            + DC-Ex
+            + GetBTC
+            + Lendconnect
+            + NIX-E
+            + Rippex
+            + Stellarport
+
+          - Total exchanges now 213 (from 213)
+
+
+20180403  2018-04-03 (PERLANCAR)
+
+          - Update to CMC 2018-04-03.
+
+          - New exchanges:
+            + Bitbns
+            + Bithesap
+            + BitShares Asset Exchange
+            + C-Patex
+            + cfinex
+            + Coinbe
+            + Coinlink
+            + CoinTiger
+            + Crex24
+            + CRXzone
+            + Cryptohub
+            + Cryptonex
+            + DDEX
+            + Ethfinex
+            + Fatbtc
+            + EtherDelta (ForkDelta)
+            + IDAX
+            + LATOKEN
+            + Lendconnect
+            + MBAex
+            + Nanex
+            + Neraex
+            + Octaex
+            + Omicrex
+            + OOOBTC
+            + OTCBTC
+            + Ovis
+            + Paradex
+            + Paymium
+            + Rfinex
+            + RuDEX
+            + Simex
+            + Sistemkoin
+            + Stellarport
+            + Stronghold
+            + Trade By Trade
+            + Unocoin
+            + Zebpay
+
+          - Removed exchanges:
+            + alcurEX
+            + BitGrail
+            + CoinEgg
+            + CoolCoin
+            + EtherDelta
+            + ETHEXIndia
+            + Nxt Asset Exchange
+            + Omni DEX
+            + VirtacoinWorld
+
+          - Changed exchanges:
+            + CoinBene changed name from Coinbene
+
+          - Total exchanges now 213 (from 184)
+
+
+20180130.1.0  2018-01-30 (PERLANCAR)
+
+          - [ux] Make by_name() case-insensitive.
+
+
+20180130   2018-01-30 (PERLANCAR)
+
+          - Update to CMC 2018-01-30.
+
+          - New exchanges:
+            + Iquant
+            + TradeOgre
+            + Vebitcoin
+
+          - Removed exchanges:
+            + BitShares Asset Exchange
+
+          - Total exchanges now 184 (from 182)
+
+
+20180116   2018-01-16 (PERLANCAR)
+
+          - Update to CMC 2018-01-16.
+
+          - New exchanges:
+            + BarterDEX
+            + Bitinka
+            + Cobinhood
+            + CoinEx
+            + Coinhouse
+            + Ore.Bz
+            + Radar Relay
+            + Upbit
+
+          - Removed exchanges:
+            + BCC Exchange
+            + CoinsMarkets
+            + Ethfinex
+
+          - Total exchanges now 182 (from 177)
+
+
+20180109   2018-01-09 (PERLANCAR)
+
+           - First release.
