@@ -1,4 +1,4 @@
-20181129.0.0  2018-11-29 (PERLANCAR)
+20181129.0.0  2018-11-29  Released-By: PERLANCAR
 
           - New exchanges:
             + ABCC
@@ -83,17 +83,17 @@
             + BtcTurk changed name from BTCTurk
             + CHAOEX changed name from ChaoEX
 
-          - Total exchanges now 225 (from 210)
+          - Total exchanges now 225  Released-By: from 210
 
 
-20180605.1.0  2018-06-05 (PERLANCAR)
+20180605.1.0  2018-06-05  Released-By: PERLANCAR
 
           - No functional changes.
 
           - Fix Changes.
 
 
-20180605  2018-06-05 (PERLANCAR)
+20180605  2018-06-05  Released-By: PERLANCAR
 
           - Update catalog to CMC 2018-06-05.
 
@@ -118,10 +118,10 @@
             + LBank changed name from Lbank
             + OKCoin International changed name from OkCoin Intl.
 
-          - Total exchanges now 210 (from 213)
+          - Total exchanges now 210  Released-By: from 213
 
 
-20180510  2018-05-10 (PERLANCAR)
+20180510  2018-05-10  Released-By: PERLANCAR
 
           - Exchanges are now given codes (unique 1-10 letters). Not all
             exchanges have codes yet. Also these methods are added: by_code(),
@@ -139,7 +139,7 @@
             + DragonEX
             + fex
             + Hotbit
-            + Indodax (previously Bitcoin Indonesia)
+            + Indodax  Released-By: previously Bitcoin Indonesia
             + Kyber Network
             + Novaexchange
             + Orionx
@@ -161,10 +161,10 @@
             + Rippex
             + Stellarport
 
-          - Total exchanges now 213 (from 213)
+          - Total exchanges now 213  Released-By: from 213
 
 
-20180403  2018-04-03 (PERLANCAR)
+20180403  2018-04-03  Released-By: PERLANCAR
 
           - Update to CMC 2018-04-03.
 
@@ -184,7 +184,7 @@
             + DDEX
             + Ethfinex
             + Fatbtc
-            + EtherDelta (ForkDelta)
+            + EtherDelta  Released-By: ForkDelta
             + IDAX
             + LATOKEN
             + Lendconnect
@@ -222,15 +222,15 @@
           - Changed exchanges:
             + CoinBene changed name from Coinbene
 
-          - Total exchanges now 213 (from 184)
+          - Total exchanges now 213  Released-By: from 184
 
 
-20180130.1.0  2018-01-30 (PERLANCAR)
+20180130.1.0  2018-01-30  Released-By: PERLANCAR
 
           - [ux] Make by_name() case-insensitive.
 
 
-20180130   2018-01-30 (PERLANCAR)
+20180130   2018-01-30  Released-By: PERLANCAR
 
           - Update to CMC 2018-01-30.
 
@@ -242,10 +242,10 @@
           - Removed exchanges:
             + BitShares Asset Exchange
 
-          - Total exchanges now 184 (from 182)
+          - Total exchanges now 184  Released-By: from 182
 
 
-20180116   2018-01-16 (PERLANCAR)
+20180116   2018-01-16  Released-By: PERLANCAR
 
           - Update to CMC 2018-01-16.
 
@@ -264,9 +264,9 @@
             + CoinsMarkets
             + Ethfinex
 
-          - Total exchanges now 182 (from 177)
+          - Total exchanges now 182  Released-By: from 177
 
 
-20180109   2018-01-09 (PERLANCAR)
+20180109   2018-01-09  Released-By: PERLANCAR
 
            - First release.
